@@ -1,8 +1,9 @@
 {
     "name": "product-management",
-    "version": "1.0.0",
-    "author": "Deborah Kurata",
-    "description": "Package for the Acme Product Management sample application",
+    "version": "1.0.1",
+    "author": "Michael Gokey",
+    "description": "reactive forms for sample site",
+    "license": "MIT",
     "scripts": {
         "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
         "tsc": "tsc",
@@ -10,7 +11,6 @@
         "lint": "tslint ./app/**/*.ts -t verbose",
         "lite": "lite-server"
     },
-    "license": "ISC",
     "dependencies": {
         "@angular/common": "~2.3.0",
         "@angular/compiler": "~2.3.0",
@@ -20,13 +20,13 @@
         "@angular/platform-browser": "~2.3.0",
         "@angular/platform-browser-dynamic": "~2.3.0",
         "@angular/router": "~3.3.0",
-        
+
         "core-js": "^2.4.1",
         "reflect-metadata": "^0.1.8",
         "rxjs": "5.0.0-rc.4",
         "systemjs": "0.19.39",
         "zone.js": "^0.7.2",
-        
+
         "bootstrap": "^3.3.7"
     },
     "devDependencies": {
