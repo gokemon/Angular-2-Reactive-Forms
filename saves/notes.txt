@@ -1,3 +1,13 @@
+git tag -a v1.0.2 -m "m3"
+
+git add -A
+git commit -m "message"
+git push
+git tag 		-a v1.0.1 		-m "message"
+git push --tags
+
+
+http://blogs.msmvps.com/deborahk/angular-2-reactive-forms-problem-solver/
 
 
     "name": "product-management",
@@ -8,11 +18,3 @@
 
 
 
-
-    git tag -a v1.0.2 -m "m3"
-
-git add -A
-git commit -m "message"
-git push
-git tag 		-a v1.0.1 		-m "message"
-git push --tags
