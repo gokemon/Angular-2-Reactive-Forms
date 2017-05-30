@@ -1,37 +1,21 @@
-import { Component, OnInit } from '@angular/core';
-import { FormGroup, FormBuilder } from '@angular/forms';
-
+import { Component } from '@angular/core';
+import { NgForm } from '@angular/forms';
+/* imports Angular "core" library modules above and my stuff below */
 import { Customer } from './customer';
 
+
+/* TypeDecorator */
 @Component({
     selector: 'my-signup',
     templateUrl: './app/customers/customer.component.html'
 })
-export class CustomerComponent implements OnInit  {
-    customerForm: FormGroup;
+/* Export class */
+export class CustomerComponent  {
     customer: Customer= new Customer();
 
-    constructor(private fb: FormBuilder) { }
-
-    ngOnInit(): void {
-        this.customerForm = this.fb.group({
-            firstName: '',
-            lastName: '',
-            email: '',
-            sendCatalog: true
-        });
+    // Save Method
+    save(customerForm: NgForm) {
+        console.log(customerForm.form);
+        console.log('Saved: ' + JSON.stringify(customerForm.value));
     }
-
-    populateTestData(): void {
-        this.customerForm.patchValue({
-            firstName: 'Jack',
-            lastName: 'Harkness',
-            sendCatalog: false
-        });
-    }
-
-    save() {
-        console.log(this.customerForm);
-        console.log('Saved: ' + JSON.stringify(this.customerForm.value));
-    }
- }
+ } //CustomerComponent

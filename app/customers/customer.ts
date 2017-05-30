@@ -1,3 +1,5 @@
+
+/* Export class, no TypeDecorator */
 export class Customer {
 
     constructor(public firstName = '',

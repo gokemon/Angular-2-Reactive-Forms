@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
+/* imports Angular "core" library modules above and my stuff below */
 
+/* TypeDecorator */
 @Component({
     selector: 'my-app',
     template: `
@@ -8,4 +10,7 @@ import { Component } from '@angular/core';
         </div>
     `
 })
-export class AppComponent { }
+/* Export class */
+export class AppComponent {
+          // code stub
+ }

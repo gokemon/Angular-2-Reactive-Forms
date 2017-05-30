@@ -1,19 +1,24 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { ReactiveFormsModule } from '@angular/forms';
-
+import { FormsModule } from '@angular/forms';
+/* imports Angular "core" library modules above and my stuff below */
 import { AppComponent } from './app.component';
 import { CustomerComponent } from './customers/customer.component';
 
+
+/* TypeDecorator */
 @NgModule({
   imports: [
-    BrowserModule,
-    ReactiveFormsModule
-  ],
+    BrowserModule,  // pulls basic directives like ngif & ngfor
+    FormsModule
+  ], // end imports
   declarations: [
     AppComponent,
     CustomerComponent
-  ],
+  ], // end declarations
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+/* Export class */
+export class AppModule {
+      // code stub
+ }

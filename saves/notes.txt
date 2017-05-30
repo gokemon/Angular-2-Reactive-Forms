@@ -6,15 +6,20 @@ git push
 git tag 		-a v1.0.1 		-m "message"
 git push --tags
 
-
+Angular 2: Reactive Forms
 http://blogs.msmvps.com/deborahk/angular-2-reactive-forms-problem-solver/
 
 
     "name": "product-management",
-    "version": "1.0.3",
+    "version": "1.1.1",
     "author": "Michael Gokey",
     "description": "reactive forms for sample site",
     "license": "MIT",
+    "keywords": [
+	    "typescript",
+	    "reactive-forms",
+	    "angular"
+	  ],
 
 
 

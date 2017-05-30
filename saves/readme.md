@@ -6,7 +6,15 @@ A little more advanced sample site using Angular 2- Reactive Forms.
 We start out with regular template forms and convert them to advanced reactive forms.
 
 
+typescript
+angular
+reactive-forms
 
+"keywords": [
+    "typescript",
+    "reactive-forms",
+    "angular"
+  ],
 
 
 ----------
